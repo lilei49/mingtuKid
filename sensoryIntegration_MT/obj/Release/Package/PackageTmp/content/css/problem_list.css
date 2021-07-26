@@ -1,0 +1,180 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.banner_cont {
+    height: 380px;
+}
+
+.pro_tab_cont {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pro_tab_cont span {
+    padding: 15px 60px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: 1px solid #ff6a64;
+}
+
+.pro_tab_cont span a {
+    color: #666;
+}
+
+.pro_tab_cont span:hover {
+    background: #ff6a64;
+    color: #fff;
+    transition: 0.5s;
+    border: border:1px solid #fff;
+}
+
+.pro_tab_cont span:hover a {
+    color: #fff;
+}
+
+.pro_tab_cont span.active {
+    background: #ff6a64;
+    color: #fff;
+    border: border:1px solid #fff;
+}
+
+.pro_tab_cont span.active a {
+    color: #fff;
+}
+
+.problem_list_cont {
+    margin-top: 100px;
+}
+
+.problem_list_cont .pro_item {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+    transition: .5s;
+    border: 1px solid #ddd;
+}
+
+.problem_list_cont .pro_item a {
+    display: block;
+    overflow: hidden;
+    height: 152px;
+}
+
+.problem_list_cont .pro_item a .pro_pic {
+    float: left;
+    width: 202px;
+    height: 152px;
+    overflow: hidden;
+}
+
+.problem_list_cont .pro_item a .pro_little_info {
+    float: left;
+    width: 780px;
+    margin-left: 40px;
+    height: 100%;
+    color: #666;
+}
+
+.problem_list_cont .pro_item a .pro_little_info h4 {
+    font-size: 16px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.problem_list_cont .pro_item a .pro_little_info p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 20px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.problem_list_cont .pro_item a .pro_little_info span {
+    font-size: 14px;
+    margin-top: 20px;
+    display: block;
+    color: #999;
+}
+
+.problem_list_cont .pro_item a .pro_time {
+    float: right;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+.problem_list_cont .pro_item a .pro_time i {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.problem_list_cont .pro_item a .pro_time .time_ {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
+
+.problem_list_cont .pro_item a .pro_time .time_ span {
+    display: block;
+    color: #ddd;
+}
+
+.problem_list_cont .pro_item a .pro_time .time_ span:nth-child(1) {
+    font-size: 40px;
+    color: #ddd;
+    line-height: 45px;
+    border-bottom: 1px solid #ddd;
+}
+
+.problem_list_cont .pro_item a .pro_time .time_ span:nth-child(2) {
+    font-size: 18px;
+}
+
+.problem_list_cont .pro_item:hover {
+    background: #ff6a64;
+    transition: .5s;
+    border: 1px solid #ff6a64;
+}
+
+.problem_list_cont .pro_item:hover a .pro_little_info {
+    color: #fff;
+}
+
+.problem_list_cont .pro_item:hover a .pro_little_info span {
+    color: #fff;
+}
+
+.problem_list_cont .pro_item:hover a .pro_time .time_ span {
+    color: #fff;
+}
+
+.problem_list_cont2 {
+    padding-bottom: 45px;
+    margin-top: 35px;
+}
+
+.problem_list_cont2 ul li {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+.problem_list_cont2 ul li b {
+    font-weight: 400;
+}

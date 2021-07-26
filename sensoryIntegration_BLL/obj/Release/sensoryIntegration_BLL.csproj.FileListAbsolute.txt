@@ -1,0 +1,14 @@
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntegration_BLL.dll
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntegration_BLL.pdb
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntegration_DLL.dll
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntegration_Model.dll
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntrgration_Util.dll
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntegration_DLL.pdb
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntegration_DLL.dll.config
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntegration_Model.pdb
+D:\明途感统\sensoryIntegration_BLL\bin\Release\sensoryIntrgration_Util.pdb
+D:\明途感统\sensoryIntegration_BLL\obj\Release\sensoryIntegration_BLL.csprojAssemblyReference.cache
+D:\明途感统\sensoryIntegration_BLL\obj\Release\sensoryIntegration_BLL.csproj.CoreCompileInputs.cache
+D:\明途感统\sensoryIntegration_BLL\obj\Release\sensoryIntegration_BLL.csproj.CopyComplete
+D:\明途感统\sensoryIntegration_BLL\obj\Release\sensoryIntegration_BLL.dll
+D:\明途感统\sensoryIntegration_BLL\obj\Release\sensoryIntegration_BLL.pdb

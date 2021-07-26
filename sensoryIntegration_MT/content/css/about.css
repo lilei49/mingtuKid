@@ -1,0 +1,179 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.about-banner {
+}
+
+.aboutCont .zcon .tab .tab-box #education {
+    overflow: hidden;
+    display: none;
+}
+.aboutCont .zcon .tab .tab-box #contact {
+    overflow: hidden;
+    display: none;
+}
+
+
+.about-banner .banner-content {
+    height: 100%;
+    padding-top: 100px;
+}
+
+.about-banner .banner-content .banner-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-banner .banner-content .banner-desc {
+    width: 540px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.aboutCont {
+    padding-top: 45px;
+}
+
+.aboutCont .tab {
+    position: relative;
+}
+
+.tab-menu {
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+.tab-menu li {
+    float: left;
+    width: 174px;
+    margin-right: 46px;
+    font-size: 18px;
+}
+
+.tab-menu li a {
+    display: block;
+    color: #fff;
+    background: #40444b;
+    height: 40px;
+    line-height: 40px;
+    transition: all 1s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.tab-menu li a:hover, .tab-menu .selected a {
+    background: #d3433e;
+}
+
+.tab .tab-box {
+    position: relative;
+    padding: 52px 0 90px;
+    clear: both;
+}
+
+.tab .hide {
+    display: none;
+}
+
+.tab-box .summary {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.tab-box .summary .company-summary {
+    position: relative;
+    height: 191px;
+    margin-top: 38px;
+}
+
+.tab-box .summary .company-summary .aim {
+    margin-left: 45px;
+    font-size: 14px;
+    line-height: 22px;
+    float: left;
+}
+
+.summary .company-summary .joinus, .culture .joinus, .contact .joinus {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 18px;
+    padding: 0px 24px;
+    color: #fff;
+    background-color: #13b5b1;
+    line-height: 38px;
+    -webkit-transition: background-color .6s ease-in;
+    -moz-transition: background-color .6s ease-in;
+    -ms-transition: background-color .6s ease-in;
+    -o-transition: background-color .6s ease-in;
+    transition: background-color .6s ease-in;
+}
+
+.tab-box .culture {
+    position: relative;
+}
+
+.tab-box .culture .culture-item {
+    margin-bottom: 19px;
+    height: auto;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.tab-box .culture .culture-item span {
+    display: block;
+    font-size: 18px;
+    color: #0a58a5;
+}
+
+.tab-box .contact {
+    position: relative;
+    margin-top: -20px;
+}
+
+.tab-box .contact .na_map {
+    width: 650px;
+    float: left;
+}
+
+.tab-box .contact .info {
+    width: 450px;
+    float: right;
+    font-size: 16px;
+    padding-top: 24px;
+    line-height: 1.8em;
+}
+
+.tab-box .contact .info > p {
+    margin-bottom: 15px;
+}
+
+.about_left {
+    width: 500px;
+    float: left;
+}
+
+.about_left p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.about_right {
+    width: 660px;
+    float: right;
+}
+
+.about_right p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.about_tit {
+    background: url(img20170107/duty_bg.png);
+    padding: 12px 15px;
+    margin: 0px 0px 10px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+}

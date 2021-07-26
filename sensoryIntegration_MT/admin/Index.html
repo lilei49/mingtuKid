@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var bodyWidth = document.body.clientWidth;
+            var masterWidth = bodyWidth - 300;
+            document.getElementById("master").style.width = masterWidth + "px";
+        };
+    </script>
+</head>
+<body>
+    <div id="master" style="margin: 0 auto;display:flex;flex-direction:column ;">
+        <div style="height:300px;text-align:center;">
+            <h3>请填写新闻信息</h3>
+            <div style="width:500px;height:200px;background-color:#F2F4F6;">
+               <input type="file" name="file" id="file" />
+            </div>
+        </div>
+        <div style="text-align:center;">
+            <h3>请在文本编辑器中完成新闻的设计</h3>
+        </div>
+        <div id="div1">
+        </div>
+        <div style="text-align:center;">
+            <input type="button" value="保存" onclick="btnClick()" />
+        </div>
+        <!--<input type="button" value="获取信息" onclick="QueryClick()" />-->
+        <!--<div id="window1">
+
+        </div>-->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/wangeditor@latest/dist/wangEditor.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        var htmlTxt = ""
+        const E = window.wangEditor
+        const editor = new E('#div1')
+        // 配置 onchange 回调函数
+        editor.config.onchange = function (newHtml) {
+            console.log('change 之后最新的 html', newHtml);
+            htmlTxt = newHtml;
+        }
+        // 配置触发 onchange 的时间频率，默认为 200ms
+        editor.config.height = 600;
+        editor.config.onchangeTimeout = 500; // 修改为 500ms
+        editor.config.uploadImgServer = '/Handler/ContactHandler.ashx?action=editorUplodaImg';
+        editor.create();
+
+        $("#file").on("change", function () {
+            var formData = new FormData();
+            formData.append("file", $("#file")[0].files[0]);
+            console.log(formData);
+
+        })
+
+        function btnClick() {
+            //console.log(htmlTxt)
+            if (htmlTxt == '') {
+                alert('请完成新闻的设计')
+            } else {
+                $.ajax({
+                    url: '/Handler/ContactHandler.ashx?action=SaveHtml',
+                    type: 'post',
+                    dataType: 'json',
+                    data: 'htmlTxt=' + htmlTxt,
+                    success: function (data) {
+                        alert(data);
+                    },
+                    error: function (msg) {
+
+                    }
+                });
+            }
+        }
+
+        function QueryClick() {
+            $.ajax({
+                url: '/Handler/ContactHandler.ashx?action=GetEncyClopedias',
+                type: 'post',
+                dataType: 'json',
+                data: '',
+                success: function (msg) {
+                    var encyList = [];
+                    encyList = msg;
+                    var htmlTxt = encyList[0].htmlTxt;
+                    document.getElementById("window1").innerHTML = htmlTxt;
+                    console.log(htmlTxt)
+                },
+                error: function (msg) {
+
+                }
+
+            });
+
+        }
+
+    </script>
+</body>
+</html>

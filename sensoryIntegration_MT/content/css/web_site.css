@@ -1,0 +1,442 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.solu_list {
+    width: 100%;
+    color: #000
+}
+
+.stitlelist {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.solu {
+    width: 100%;
+    height: 412px;
+    background: url(../images/solu_bg.jpg) repeat-y top center;
+}
+
+.solu_con {
+    width: 1200px;
+    margin: 0 auto;
+    height: 412px;
+}
+
+.solu_left {
+    width: 512px;
+    height: 310px;
+    float: left;
+    margin: 100px 0 0 0;
+    float: left;
+}
+
+.solu_left img {
+    margin: 21px 0 0 0;
+}
+
+.solu_right {
+    width: 585px;
+    float: right;
+    margin: 100px 0 0 0;
+}
+
+.solu_right .solu_right_bt {
+    font: 41px/50px "微软雅黑";
+    color: #fff;
+    margin: 0 0 35px 0;
+    font-weight: bold;
+    background: url(../images/solution_bt.png) no-repeat 0 6px;
+    padding: 0 0 0 51px;
+}
+
+.solu_right .solu_right_co {
+    width: 450px;
+    margin: 0 0 0 55px;
+}
+
+.solu_right .solu_right_co p {
+    padding: 0;
+    margin: 0;
+    font: 14px/30px "微软雅黑";
+    color: #fff;
+}
+
+.page-h5-banner {
+    position: relative;
+    width: 100%;
+    height: 46em;
+    overflow: hidden;
+}
+
+.page-h5-banner > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(15, 115, 73, 0.5);
+}
+
+.page-h5-banner > div h1 {
+    font-weight: normal;
+    margin-top: 11%;
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    line-height: 1em;
+}
+
+.page-h5-banner > div h2 {
+    font-weight: normal;
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 2%;
+    line-height: 1em;
+}
+
+.page-h5-banner > div h3 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3%;
+}
+
+.page-h5-banner > div h3 b {
+    color: #fff;
+    background: #0F7349;
+    line-height: 1em;
+    display: inline-block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.6em;
+    padding: 0 0.2em 4px 0.2em;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+.page-h5-banner > div h3 c {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 3.5em;
+    line-height: 1em;
+    color: #fff;
+}
+
+.page-h5-banner > div h4 {
+    overflow: hidden;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.page-h5-banner > div h4 a {
+    display: inline-block;
+    background: #eee;
+    font-weight: normal;
+    padding: 1% 4% 1% 4%;
+    margin-right: 5%;
+    position: relative;
+    z-index: 9;
+}
+
+.page-h5-banner > div h4 #p-5-b-a {
+    background: #333;
+    color: #eee;
+}
+
+.page-h5-banner > div h5 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+.page-h5-one {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+    color: #666;
+}
+
+.page-h5-one i {
+    height: 1px;
+    background: #333;
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.page-h5-one p {
+    text-align: center;
+    font-size: 2em;
+    line-height: 3em;
+}
+
+.page-h5-one p a {
+    color: #666;
+}
+
+.page-h5-one .zcon div {
+    display: inline-block;
+    width: 29%;
+    margin: 2%;
+    margin-bottom: 4%;
+}
+
+.page-h5-one .zcon div h3 {
+    float: left;
+    width: 10%;
+    text-align: left;
+}
+
+.page-h5-one .zcon div h3 img {
+    width: 100%;
+}
+
+.page-h5-one .zcon div h2 {
+    float: right;
+    width: 85%;
+    text-align: left;
+}
+
+.page-h5-one .zcon div h2 b {
+    text-align: left;
+    display: block;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin-bottom: 6%;
+}
+
+.page-h5-one .zcon div h2 c {
+    text-align: left;
+    font-weight: normal;
+    display: block;
+    font-size: 0.6em;
+    color: #888
+}
+
+.page-h5-one .zcon div h2 c a {
+    color: #666;
+}
+
+.page-h5-two {
+    position: relative;
+    width: 100%;
+}
+
+.page-h5-two:hover img {
+    opacity: 0.8;
+}
+
+.page-h5-two img {
+    width: 100%;
+    display: block;
+}
+
+.page-h5-two div {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+}
+
+.page-h5-two div h3 {
+    color: #fff;
+    font-weight: normal;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15%;
+    font-size: 2em;
+}
+
+.page-h5-two div h3 a {
+    color: #fff;
+}
+
+.page-h5-two div p {
+    height: 2px;
+    background: #eee;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.page-h5-two div h2 {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.page-h5-two div h2 b {
+    font-weight: normal;
+    display: block;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.page-h5-two div h2 c {
+    font-weight: normal;
+    display: block;
+    color: #ccc;
+    font-size: 0.6em;
+    line-height: 2em;
+}
+
+.page-h5-two div h2 c a {
+    color: #ccc;
+}
+
+.page-h5-dt {
+    width: 100%;
+    position: relative; /*height: 70em;*/
+    overflow: hidden;
+}
+
+.page-h5-dt .txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.page-h5-dt .txt h5 {
+    font-size: 2em;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 120px;
+    line-height: 2em;
+}
+
+.page-h5-dt .txt h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2em
+}
+
+.page-h5-dt .txt h2 a {
+    color: #fff;
+}
+
+.page-h5-dt .txt h3 {
+    width: 10%;
+    height: 1px;
+    background: #eee;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.page-h5-dt .txt h4 {
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    line-height: 2.2em;
+    margin-top: 5%;
+}
+
+.page-h5-dt .txt h4 a {
+    display: block;
+    color: #fff;
+}
+
+.page-h5-dt .txt h4:hover {
+    border: 1px solid #4e545b;
+}
+
+.page-h5-dt .txt h4 a:hover {
+    color: #4e545b;
+}
+
+.page-h5-dt .txt p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.page-h5-dt .txt p img {
+    width: 100%;
+}
+
+.page-fn-two {
+    background-size: 100% 100%;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    overflow: hidden;
+    text-align: center;
+}
+
+.page-fn-two p {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    color: #666;
+    font-size: 2em;
+}
+
+.page-fn-two b {
+    font-weight: normal;
+    margin: 0 auto;
+    width: 20%;
+    color: #666;
+    display: block;
+    margin-bottom: 5%;
+}
+
+.page-fn-two div {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top
+}
+
+.page-fn-two div h3 {
+    text-align: left;
+    color: #666;
+    font-weight: normal;
+    font-size: 1.6em;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.page-fn-two div h4 {
+    text-align: left;
+    color: #0F7349;
+    font-size: 1em;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(131, 131, 131, 0.2);
+    width: 80%;
+    line-height: 2em;
+}
+
+.page-h5-case {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.page-h5-case h2 {
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: 1em;
+    color: #0F7349;
+    overflow: hidden;
+    margin-bottom: 1em;
+    color: #666;
+    font-weight: 400;
+}
+
+.page-h5-case h3 {
+    height: 1px;
+    background: #333;
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}

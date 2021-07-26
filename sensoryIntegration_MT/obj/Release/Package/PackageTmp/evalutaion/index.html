@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>感统评测_武汉明途感统官方网站-感统失调训练|感统培训|老岳讲感统|注意力训练</title>
+    <meta name="keywords" content="感统训练,儿童感统训练,感统训练机构,感觉统合训练" />
+    <meta name="description" content="明途感统专业感统训练，提升孩子的注意力、学习力、语言能力、胆量自信心等，2-10岁孩子能力评估，针对性训练方案和专业老师指导，让更多的孩子因感统训练而精彩！" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="shortcut icon" href="/content/images/bitbug_favicon.ico">
+    <link href="/content/css/common.css" rel="stylesheet" />
+    <script src="/content/js/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="zcon">
+            <div class="head">
+                <div class="logo">
+                    <a href="/" title="武汉明途感统官方网站-感统失调训练|感统培训|老岳讲感统|注意力训练"><h1><img alt="武汉明途感统官方网站-感统失调训练|感统培训|老岳讲感统|注意力训练" src="/content/images/logo.png"></h1></a>
+                </div>
+                <div class="center_intrl">
+                    <h4 class="">儿童<b>感统训练</b>专业机构</h4>
+                    <p>&lt;老岳讲感统&gt;让您的孩子因感统训练而精彩</p>
+                </div>
+                <div class="top_tel">
+                    <p><i>免费咨询热线：</i><span>02759226029</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="zcon">
+                <ul class="nav-box" id="nav-box">
+                    <li class="first"><a href="/">首页</a><span></span></li>
+                    <li><a href="/gantong/">感统训练</a><span style="height: 2px; left: 50%; width: 0px; right: 0px;"></span></li>
+                    <li><a href="/kecheng/">课程介绍</a><span style="height: 2px; left: 50%; width: 0px; right: 0px;"></span></li>
+                    <li class='active'><a href="/evalutaion/">感统测评</a><span style="height: 2px; left: 50%; width: 0px; right: 0px;"></span></li>
+                    <li><a href="/laoyue/">老岳讲感统</a><span style="height: 2px; left: 50%; width: 0px; right: 0px;"></span></li>
+                    <li><a href="/team/" rel="dropmenu1">师资团队</a><span style="height: 2px; left: 50%; width: 0px; right: 57.0391px;"></span></li>
+                    <li><a href="/baike/">感统百科</a><span style="height: 2px; left: 50%; width: 0px; right: 57.4109px;"></span></li>
+                    <li><a href="/about/" rel="dropmenu8">关于我们</a><span style="height: 2px; left: 50%; width: 0px; right: 0px;"></span></li>
+                   <!-- <li><a href="/news/">新闻资讯</a><span style="height: 2px; left: 50%; width: 0px; right: 59.5px;"></span></li>-->
+
+                </ul>
+            </div>
+        </div>
+        <a href="javascript:" id="pull" onclick=''><img src="/content/images/menu.png" title="menu" /></a>
+        <div class="menu_bg" id="menu_bg"></div>
+    </div>
+    <!-- header end -->
+    <div class="sidemenu" id="side-menu">
+        <ul>
+            <li class="homeli"><a href='/'>首页</a></li>
+            <li class='active'><a href='/gantong/'>感统训练</a></li>
+            <li><a href='/kecheng/'>课程介绍</a></li>
+            <li><a href='/evalutaion/'>感统测评</a></li>
+            <li><a href='/laoyue/'>老岳讲感统</a></li>
+            <li><a href='/team/'>师资团队</a></li>
+            <li><a href='/baike/'>感统百科</a></li>
+            <li><a href='/about/'>关于我们</a></li>
+            <!--<li><a href='/news/'>新闻资讯</a></li>-->
+        </ul>
+    </div>
+    <!--<iframe src='https://www.wjx.cn/vj/eRbSA28.aspx?width=760&source=iframe&s=t' width='799' height='800' frameborder='0' style='overflow:auto'></iframe>-->
+    <script type="text/javascript">
+        $(function () {
+            $('#pull').click(function () {
+                if (parseInt($("#side-menu").css("right")) <= -165) {
+                    $("#side-menu").animate({ right: 0 }, "fast").css("display", "block");
+                    $("body").animate({ right: 165 }, "fast");
+                    $('#menu_bg').addClass('menu_bg_active');
+                }
+            })
+            $('#menu_bg').click(function () {
+                $("#side-menu").animate({ right: -165 }, "fast").css("display", "none");
+                $("body").animate({ right: 0 }, "fast");
+                $('#menu_bg').removeClass('menu_bg_active');
+            })
+        })
+    </script>
+    <script type="text/javascript" src="https://www.wjx.cn/handler/jqemed.ashx?activity=eRbSA28&width=760&source=iframe"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.nav li').hover(function () {
+                $('span', this).stop().css('height', '2px');
+                $('span', this).animate({
+                    left: '0',
+                    width: '100%',
+                    right: '0'
+                }, 200);
+            }, function () {
+                $('span', this).stop().animate({
+                    left: '50%',
+                    width: '0'
+                }, 200);
+            });
+            $('.nav li').click(function () {
+                $(this).addClass("current").siblings().removeClass("current");
+            });
+        });
+
+    </script>
+</body>
+</html>

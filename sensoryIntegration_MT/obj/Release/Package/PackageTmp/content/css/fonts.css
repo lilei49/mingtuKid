@@ -1,0 +1,15 @@
+﻿@font-face {
+    font-family: 'Conv_Humanist521BT-Light';
+    src: url('../fonts/Humanist521BT-Light.eot');
+    src: local('☺'), url('../fonts/Humanist521BT-Light.woff') format('woff'), url('../fonts/Humanist521BT-Light.ttf') format('truetype'), url('../fonts/Humanist521BT-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Oswald';
+    src: url('../fonts/Oswald.eot');
+    src: local('☺'), url('../fonts/Oswald.woff') format('woff'), url('../fonts/Oswald.ttf') format('truetype'), url('../fonts/Oswald.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

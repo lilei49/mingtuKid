@@ -1,0 +1,318 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88AC80B6-9CF6-4E70-827C-C1FD95469570}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sensoryIntegration_MT</RootNamespace>
+    <AssemblyName>sensoryIntegration_MT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about\index.html" />
+    <Content Include="admin\index.aspx" />
+    <Content Include="admin\Index.html" />
+    <Content Include="admin\mingtuLogin.aspx" />
+    <Content Include="baike\default\11.html" />
+    <Content Include="baike\default\12.html" />
+    <Content Include="baike\default\13.html" />
+    <Content Include="baike\default\14.html" />
+    <Content Include="baike\index.html" />
+    <Content Include="content\1-1F410201324H4.jpg" />
+    <Content Include="content\1-1F411213335U3.jpg" />
+    <Content Include="content\css\about.css" />
+    <Content Include="content\css\animate.min.css" />
+    <Content Include="content\css\article.css" />
+    <Content Include="content\css\bootstrap.min.css" />
+    <Content Include="content\css\common.css" />
+    <Content Include="content\css\fonts.css" />
+    <Content Include="content\css\index.css" />
+    <Content Include="content\css\iven.css" />
+    <Content Include="content\css\jquery.fullPage.css" />
+    <Content Include="content\css\owl.carousel.css" />
+    <Content Include="content\css\owl.theme.css" />
+    <Content Include="content\css\page-html5-canvas.css" />
+    <Content Include="content\css\page.css" />
+    <Content Include="content\css\problem_list.css" />
+    <Content Include="content\css\respond.css" />
+    <Content Include="content\css\responsive.css" />
+    <Content Include="content\css\sticky.css" />
+    <Content Include="content\css\style.css" />
+    <Content Include="content\css\swiper-bundle.min.css" />
+    <Content Include="content\css\uikit.css" />
+    <Content Include="content\css\web_site.css" />
+    <Content Include="content\images\1-1511131RR6210.jpg" />
+    <Content Include="content\images\1-160F116031R51.png" />
+    <Content Include="content\images\1-1F410201324H4.jpg" />
+    <Content Include="content\images\1-1F411213335U3.jpg" />
+    <Content Include="content\images\1-1F5161A635912.jpg" />
+    <Content Include="content\images\1-1F5161PR4143.jpg" />
+    <Content Include="content\images\1-1F51915532BI.jpg" />
+    <Content Include="content\images\1-1P11H2460A35.jpg" />
+    <Content Include="content\images\1-1Q21Q45912209.jpg" />
+    <Content Include="content\images\1-1Q21Q45944136.jpg" />
+    <Content Include="content\images\1-1Q21Q45Q4448.jpg" />
+    <Content Include="content\images\1-1Q21Q45U22W.jpg" />
+    <Content Include="content\images\1-1Q2211125010-L.jpg" />
+    <Content Include="content\images\1-1Q2211125250-L.jpg" />
+    <Content Include="content\images\1-1Q2241P2280-L.jpg" />
+    <Content Include="content\images\1-1Q22514510UK.jpg" />
+    <Content Include="content\images\1-1Z2111919100-L.jpg" />
+    <Content Include="content\images\1-1Z2111Z9270-L.jpg" />
+    <Content Include="content\images\1-1Z2141R3440-L.jpg" />
+    <Content Include="content\images\1-1Z2211R0320-L.gif" />
+    <Content Include="content\images\1-1Z6061550210-L.jpg" />
+    <Content Include="content\images\1-1Z60619350L31.jpg" />
+    <Content Include="content\images\1-1ZP5152JN30.jpg" />
+    <Content Include="content\images\1-1ZR21941335J.jpg" />
+    <Content Include="content\images\2015-09-22_192803.png" />
+    <Content Include="content\images\aboutUs\2.jpg" />
+    <Content Include="content\images\advantage.png" />
+    <Content Include="content\images\baike\1-1Q2011ZK5.jpg" />
+    <Content Include="content\images\bg_1.jpg" />
+    <Content Include="content\images\bg_5.png" />
+    <Content Include="content\images\bg_6.jpg" />
+    <Content Include="content\images\bitbug_favicon.ico" />
+    <Content Include="content\images\course\courseIntroduction.jpg" />
+    <Content Include="content\images\da_more.png" />
+    <Content Include="content\images\favicon.ico" />
+    <Content Include="content\images\foot1_bg.png" />
+    <Content Include="content\images\h07.jpg" />
+    <Content Include="content\images\headbg.jpg" />
+    <Content Include="content\images\homePage.jpg" />
+    <Content Include="content\images\indexx-1.jpg" />
+    <Content Include="content\images\index_1.png" />
+    <Content Include="content\images\laoyue\1-f2laoyue.jpg" />
+    <Content Include="content\images\lc-bg-hover.png" />
+    <Content Include="content\images\lc-bg.gif" />
+    <Content Include="content\images\logo.jpg" />
+    <Content Include="content\images\logo.png" />
+    <Content Include="content\images\menu.png" />
+    <Content Include="content\images\page-bg-03.png" />
+    <Content Include="content\images\page-h5-one-icon.png" />
+    <Content Include="content\images\page-h5-two-bg %281%29.jpg" />
+    <Content Include="content\images\page-h5-two-bg.jpg" />
+    <Content Include="content\images\page-icon_06.png" />
+    <Content Include="content\images\page-icon_07.png" />
+    <Content Include="content\images\page-icon_08.png" />
+    <Content Include="content\images\page-icon_09.png" />
+    <Content Include="content\images\page-icon_19.png" />
+    <Content Include="content\images\page-icon_20.png" />
+    <Content Include="content\images\page-icon_21.png" />
+    <Content Include="content\images\page-icon_22.png" />
+    <Content Include="content\images\page-pic_12.png" />
+    <Content Include="content\images\page-pic_13.png" />
+    <Content Include="content\images\page-pic_14.png" />
+    <Content Include="content\images\page-pic_15.png" />
+    <Content Include="content\images\page-pic_16.jpg" />
+    <Content Include="content\images\page-pic_18.png" />
+    <Content Include="content\images\page-pic_19.jpg" />
+    <Content Include="content\images\page-pic_20.jpg" />
+    <Content Include="content\images\page-pic_21.jpg" />
+    <Content Include="content\images\page-pic_22.jpg" />
+    <Content Include="content\images\page-pic_23.jpg" />
+    <Content Include="content\images\page-pic_24.jpg" />
+    <Content Include="content\images\page-pic_25.jpg" />
+    <Content Include="content\images\page-pic_26.jpg" />
+    <Content Include="content\images\page-pic_27.png" />
+    <Content Include="content\images\page-pic_28.png" />
+    <Content Include="content\images\page-pic_29.png" />
+    <Content Include="content\images\six-questions.png" />
+    <Content Include="content\images\sl01.png" />
+    <Content Include="content\images\sl_icon.png" />
+    <Content Include="content\images\system-point.jpg" />
+    <Content Include="content\images\teacherTeam\huang.jpg" />
+    <Content Include="content\images\teacherTeam\liu.jpg" />
+    <Content Include="content\images\teacherTeam\liujia.jpg" />
+    <Content Include="content\images\teacherTeam\shizi.jpg" />
+    <Content Include="content\images\teacherTeam\wang.jpg" />
+    <Content Include="content\images\teacherTeam\zhang.jpg" />
+    <Content Include="content\images\teacherTeam\zhou.jpg" />
+    <Content Include="content\images\tel.png" />
+    <Content Include="content\images\tubiao.png" />
+    <Content Include="content\images\web-title-bg.gif" />
+    <Content Include="content\images\wonderfulclassroom\1.jpg" />
+    <Content Include="content\images\wonderfulclassroom\10.jpg" />
+    <Content Include="content\images\wonderfulclassroom\2.jpg" />
+    <Content Include="content\images\wonderfulclassroom\3.jpg" />
+    <Content Include="content\images\wonderfulclassroom\4.jpg" />
+    <Content Include="content\images\wonderfulclassroom\5.jpg" />
+    <Content Include="content\images\wonderfulclassroom\6.jpg" />
+    <Content Include="content\images\wonderfulclassroom\7.jpg" />
+    <Content Include="content\images\wonderfulclassroom\8.jpg" />
+    <Content Include="content\images\wonderfulclassroom\9.jpg" />
+    <Content Include="content\js\canvas2.js" />
+    <Content Include="content\js\common.js" />
+    <Content Include="content\js\countUp.js" />
+    <Content Include="content\js\home.min.js" />
+    <Content Include="content\js\jquery-1.11.3,min.js" />
+    <Content Include="content\js\jquery-1.7.1.min.js" />
+    <Content Include="content\js\jquery.easing.1.3.js" />
+    <Content Include="content\js\sticky.min.js" />
+    <Content Include="content\js\swiper-bundle.min.js" />
+    <Content Include="content\js\uikit.min.js" />
+    <Content Include="content\js\weixin.js" />
+    <Content Include="content\page-bg-03.png" />
+    <Content Include="content\page-icon_06.png" />
+    <Content Include="content\page-icon_08.png" />
+    <Content Include="content\page-icon_20.png" />
+    <Content Include="content\page-pic_13.png" />
+    <Content Include="content\page-pic_18.png" />
+    <Content Include="Control\control.html" />
+    <Content Include="evalutaion\index.html" />
+    <Content Include="footer\foot.html" />
+    <Content Include="gantong\index.html" />
+    <Content Include="header\head.html" />
+    <Content Include="Index.html" />
+    <Content Include="kecheng\index.html" />
+    <Content Include="laoyue\index.html" />
+    <Content Include="news\index.html" />
+    <Content Include="news\newsModel.html" />
+    <Content Include="team\index.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\mingtuLogin.aspx.cs">
+      <DependentUpon>mingtuLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\mingtuLogin.aspx.designer.cs">
+      <DependentUpon>mingtuLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\ContactHandler.ashx.cs">
+      <DependentUpon>ContactHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\css\jquery.bxslider.css" />
+    <Content Include="Handler\ContactHandler.ashx" />
+    <Content Include="content\fonts\fontawesome-webfont.woff" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="uploads\baike\" />
+    <Folder Include="uploads\news\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sensoryIntegration_BLL\sensoryIntegration_BLL.csproj">
+      <Project>{5b4eb44a-056b-42c0-964f-6d05fbef0f4f}</Project>
+      <Name>sensoryIntegration_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sensoryIntegration_Model\sensoryIntegration_Model.csproj">
+      <Project>{9eec84df-9f71-4ada-9c8d-243e6bcf9168}</Project>
+      <Name>sensoryIntegration_Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50502</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:44342/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

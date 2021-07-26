@@ -1,0 +1,12 @@
+D:\明途感统\sensoryIntegration_Model\bin\Debug\sensoryIntegration_Model.dll
+D:\明途感统\sensoryIntegration_Model\bin\Debug\sensoryIntegration_Model.pdb
+D:\明途感统\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.csproj.CoreCompileInputs.cache
+D:\明途感统\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.dll
+D:\明途感统\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.pdb
+D:\明途感统\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.csprojAssemblyReference.cache
+D:\明途感统\mtukid\sensoryIntegration_Model\bin\Debug\sensoryIntegration_Model.dll
+D:\明途感统\mtukid\sensoryIntegration_Model\bin\Debug\sensoryIntegration_Model.pdb
+D:\明途感统\mtukid\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.csprojAssemblyReference.cache
+D:\明途感统\mtukid\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.csproj.CoreCompileInputs.cache
+D:\明途感统\mtukid\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.dll
+D:\明途感统\mtukid\sensoryIntegration_Model\obj\Debug\sensoryIntegration_Model.pdb

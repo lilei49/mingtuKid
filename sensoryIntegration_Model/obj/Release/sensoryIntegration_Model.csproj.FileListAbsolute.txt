@@ -1,0 +1,6 @@
+D:\明途感统\sensoryIntegration_Model\bin\Release\sensoryIntegration_Model.dll
+D:\明途感统\sensoryIntegration_Model\bin\Release\sensoryIntegration_Model.pdb
+D:\明途感统\sensoryIntegration_Model\obj\Release\sensoryIntegration_Model.csproj.CoreCompileInputs.cache
+D:\明途感统\sensoryIntegration_Model\obj\Release\sensoryIntegration_Model.dll
+D:\明途感统\sensoryIntegration_Model\obj\Release\sensoryIntegration_Model.pdb
+D:\明途感统\sensoryIntegration_Model\obj\Release\sensoryIntegration_Model.csprojAssemblyReference.cache
